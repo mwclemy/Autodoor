@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name"> Auto Door</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_pin">Pin</string>
+    <string name="login_button">Login</string>
+    <string name="reset_button">Reset</string>
+    <string name="action_change_pin"> Change Pin</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_managedoor"> Manage Door</string>
+    <string name="title_activity_forgotpin">Reset Pin</string>
+    <string name="title_activity_changepin">Change Pin</string>
+    <string name="button_change">Change</string>
+    <string name="forgot_pin">Forgot Pin?</string>
+    <string name="lock">Lock</string>
+    <string name="unlock">Unlock</string>
+    <string name="current_pin_hint">Current Pin</string>
+    <string name="new_pin_hint">New Pin</string>
+</resources>
