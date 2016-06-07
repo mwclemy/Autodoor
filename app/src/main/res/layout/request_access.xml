@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".RequestAccess"
+    android:background="@color/backgroundColor"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <ImageView
+        android:id="@+id/request_access_logo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:src="@drawable/autodoor_logo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_request_access"
+        android:textSize="@dimen/text_header"
+        android:layout_marginBottom="@dimen/text_view_margin"/>
+
+    <EditText android:id="@+id/first_name" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="@string/prompt_first_name"
+            android:inputType="text" android:maxLines="1"
+            android:singleLine="true"
+            android:textColorHint="@color/colorText"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/text_normal"/>
+
+        <EditText android:id="@+id/last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_last_name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorHint="@color/colorText"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/text_normal"/>
+
+        <EditText android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_email"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorHint="@color/colorText"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/text_normal"/>
+
+        <EditText android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_phone_number"
+            android:inputType="text" android:maxLines="1"
+            android:singleLine="true"
+            android:textColorHint="@color/colorText"
+            android:textColor="@color/colorText"
+            android:textSize="@dimen/text_normal"/>
+        <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:textSize="@dimen/text_normal"
+            android:textColor="@color/colorText"
+        android:text="@string/role_option"/>
+        <Spinner
+            android:id="@+id/role_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_normal"
+        android:textColor="@color/colorText"
+        android:text="@string/office_option"/>
+    <Spinner
+        android:id="@+id/office_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/request_submit_button" style="?android:textAppearanceSmall"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_view_margin" android:text="@string/request_access_button"
+            android:textStyle="bold"
+            android:textColor="@color/textColorPrimary"
+            android:background="@color/colorButton"
+            />
+
+
+
+</LinearLayout>

@@ -3,8 +3,8 @@
       xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/action_change_pin"
-        android:title="@string/action_change_pin"
+        android:id="@+id/action_change_password"
+        android:title="@string/action_change_password"
         android:orderInCategory="100"
         app:showAsAction="never" />
 

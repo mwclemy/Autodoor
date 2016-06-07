@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nav_color">
+
+
+    <RelativeLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        >
+
+        <ImageView
+            android:id="@+id/app_icon"
+            android:layout_marginTop="@dimen/back_button_margin"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:src="@drawable/ic_back"
+            />
+
+
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nav_header_container"
+        />
+
+
+</RelativeLayout>
