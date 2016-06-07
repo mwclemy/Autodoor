@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#125688</color>
-    <color name="colorPrimaryDark">#125688</color>
-    <color name="colorAccent">#c8e8ff</color>
+    <color name="colorPrimary">#081318</color>
+    <color name="colorPrimaryDark">#00caf2</color>
+    <color name="colorAccent">#b2b2b2</color>
     <color name="tabsScrollColor">#c8e8ff</color>
     <color name="white_greyish">#EEEEEE</color>
     <color name="textColorPrimary">#FFFFFF</color>
-    <color name="buttonColor">#ff7e51c2</color>
+    <color name="colorButton">#00caf2</color>
+    <color name="backgroundColor">#ebeff1</color>
+    <color name="colorText">#446270</color>
+    <color name="colorHeaderText">#b2b2b2</color>
+    <color name="list_divider">#b2b2b2</color>
+    <color name="list_selector">#446270</color>
+    <color name="list_background">#081318</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="list_item_title">#446270</color>
+    <color name="list_background_pressed">#446270</color>
+    <color name="counter_text_color">#b2b2b2</color>
+    <color name="counter_text_bg">#b2b2b2</color>
+    <color name="nav_color">#aa000000</color>
 </resources>

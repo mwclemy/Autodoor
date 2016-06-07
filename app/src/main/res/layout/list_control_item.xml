@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="5dip" >
+
+
+    <LinearLayout android:id="@+id/control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip">
+        <TextView
+            android:id="@+id/office_status"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:text="Open"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_normal"
+           />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/office_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/control"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/text_normal"
+        android:layout_centerVertical="true"
+        />
+
+
+
+</RelativeLayout>

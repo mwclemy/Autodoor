@@ -17,30 +17,57 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.techx.autodoor.ManageDoorActivity"
+        <activity android:name="com.techx.autodoor.ManageDoor"
+            android:label="@string/title_activity_manage_door"
+            android:parentActivityName="com.techx.autodoor.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techx.autodoor.MainActivity" />
+        </activity>
+
+        <activity android:name="com.techx.autodoor.RequestAccess"
+            android:label="@string/title_activity_request_access"
+            android:parentActivityName="com.techx.autodoor.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techx.autodoor.MainActivity" />
+        </activity>
+        <activity android:name="com.techx.autodoor.ForgotPassword"
+            android:label="@string/title_activity_forgot_password"
+            android:parentActivityName="com.techx.autodoor.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techx.autodoor.MainActivity" />
+        </activity>
+        <!--<activity android:name="com.techx.autodoor.ManageDoorActivity"
             android:label="@string/title_activity_managedoor"
             android:parentActivityName="com.techx.autodoor.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.techx.autodoor.MainActivity" />
-        </activity>
+        </activity> -->
 
-        <activity android:name="com.techx.autodoor.ForgotPinActivity"
+        <!--<activity android:name="com.techx.autodoor.ForgotPinActivity"
             android:label="@string/title_activity_forgotpin"
             android:parentActivityName="com.techx.autodoor.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.techx.autodoor.MainActivity" />
-        </activity>
+        </activity> -->
 
-        <activity android:name="com.techx.autodoor.ChangePinActivity"
+        <!--<activity android:name="com.techx.autodoor.ChangePinActivity"
             android:label="@string/title_activity_changepin"
-            android:parentActivityName="com.techx.autodoor.ManageDoorActivity">
+            android:parentActivityName="com.techx.autodoor.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.techx.autodoor.ManageDoorActivity" />
-        </activity>
+                android:value="com.techx.autodoor.MainActivity" /> S
+        </activity>  -->
 
+        <!--<provider
+            android:authorities="@string/content_authority"
+            android:name=".data.AutodoorProvider"
+            android:enabled="true"
+            android:exported="true"/> -->
     </application>
     <!--  Internet Permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
